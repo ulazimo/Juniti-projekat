@@ -1,0 +1,17 @@
+Odustao sam od pravljenja super maria koji se krece levo i desno i moze da skace po platformama koje se random stvaraju jer je to mnogo jednostavno za napraviti unity-u
+pa sam radio top down igricu gde se igrac bori protiv zloca koji se random stvaraju.
+Cikica se pomera na wasd i napada na q. Za njega su vezane skripte pomeranje i stvori zlocu.
+Skripta pomeranje pomera cikicu i njegovo pomeranje prosledjuje animatoru koji vodi racuna o animacijama za pomeranje.
+Kamera prati cikicu koristeci skriptu kamera.
+Za njegov mac i za slash koji nastane kad napadne je vezana skripta napadanje koja kada  udari zlocu poziva funkciju
+zloca ranjen iz skripte zloca zdravlje.
+Kada zloca dodirne cikicu pozove funkciju cikica ranjen iz skripte cikica zdravlje.
+Zloce imaju random pomeranje preko skripte shlajm kretanje.
+Objektno orijentisano programiranje koristim u skriptama napadanje i stvori zlocu.
+Kada se zloca rani instancira se particle effect za krv i leteci broj koji se nalaze u folderu prefabs.
+Oni na sebi imaju skriptu unisti vremenom koja ih vremenom unisti. Leteci broj ima na sebi skriptu leteci broj koja
+uzima koliko je ranjen i ispisuje ga i pomera.
+Konstruktor za zloce je skripta stvori zlocu koja na svake 3 sekunde stvara zlocu na random poziciji blizu objekta za koji je vezana.
+i za nju je vezan zloca iz foldera prefabs.
+Zloce(meksikanci) se prave kod objekra spawner meksikanaca na koji je vezana skripta stvori zlocu, a na nju povezan meksikanac
+iz foldera prefabs.
